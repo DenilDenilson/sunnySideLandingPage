@@ -10,5 +10,8 @@
     "Tailwind"
   ],
   "author": "denildenilson",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
 }
