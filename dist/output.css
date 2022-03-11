@@ -468,24 +468,90 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.grid {
+  display: grid;
+}
+
+.h-\[38rem\] {
+  height: 38rem;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
+.h-\[20rem\] {
+  height: 20rem;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
 .w-screen {
   width: 100vw;
 }
 
-.w-11 {
-  width: 2.75rem;
+.grow {
+  flex-grow: 1;
 }
 
-.w-10 {
-  width: 2.5rem;
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.bg-image-header {
+  background-image: url('../images/mobile/image-header.jpg');
+}
+
+.bg-image-transform {
+  background-image: url('../images/mobile/image-transform.jpg');
+}
+
+.bg-image-stand-out {
+  background-image: url('../images/mobile/image-stand-out.jpg');
+}
+
+.bg-image-graphic-design {
+  background-image: url('../images/mobile/image-graphic-design.jpg');
+}
+
+.bg-image-photography {
+  background-image: url('../images/mobile/image-photography.jpg');
+}
+
+.bg-image-gallery-milkbottles {
+  background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
+}
+
+.bg-image-gallery-orange {
+  background-image: url('../images/mobile/image-gallery-orange.jpg');
+}
+
+.bg-image-gallery-cone {
+  background-image: url('../images/mobile/image-gallery-cone.jpg');
+}
+
+.bg-image-gallery-sugar-cubes {
+  background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }

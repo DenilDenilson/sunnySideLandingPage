@@ -35,7 +35,15 @@ module.exports = {
         Fraunces: ['Fraunces', 'serif'],
       },
       backgroundImage: {
-        'image-header': "url('./images/mobile/image-header.jpg')",
+        'image-header': "url('../images/mobile/image-header.jpg')",
+        'image-transform': "url('../images/mobile/image-transform.jpg')",
+        'image-photography': "url('../images/mobile/image-photography.jpg')",
+        'image-stand-out': "url('../images/mobile/image-stand-out.jpg')",
+        'image-gallery-cone': "url('../images/mobile/image-gallery-cone.jpg')",
+        'image-gallery-milkbottles': "url('../images/mobile/image-gallery-milkbottles.jpg')",
+        'image-gallery-orange': "url('../images/mobile/image-gallery-orange.jpg')",
+        'image-gallery-sugar-cubes': "url('../images/mobile/image-gallery-sugar-cubes.jpg')",
+        'image-graphic-design': "url('../images/mobile/image-graphic-design.jpg')",
       }
     },
   },
