@@ -17,6 +17,7 @@ module.exports = {
         'Dark-desaturated-cyan': '#24554B',
         'Dark-blue': '#19526B',
         'Dark-moderate-cyan': '#458C7D',
+        'footer-bg-cyan': '#90d4c5',
   
         'Very-dark-desaturated-blue': '#232F3D',
         'Very-dark-grayish-blue': '#5A626C',

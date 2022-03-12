@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../dist/output.css">
 
     <title>Fruits</title>
@@ -14,7 +14,7 @@
 <body>
     <header class="flex flex-col w-screen h-[38rem] bg-image-header bg-cover bg-no-repeat bg-center relative">
         <div class="flex justify-between px-5 py-5 items-center">
-            <span class="text-white font-Barlow font-semibold text-2xl">sunnyside</span>
+            <span class="text-white font-Barlow font-black text-2xl">sunnyside</span>
             <img class="w-[24px] h-[18px]" src="../images/icon-hamburger.svg" alt="Menu despegable">
         </div>
         <h1 class="m-auto text-white font-Fraunces text-5xl text-center tracking-widest pb-60">WE ARE CREATIVES</h1>
@@ -43,50 +43,50 @@
                 <div class="w-[130px] m-auto h-2 bg-Soft-red absolute left-0 right-0 m-auto bottom-[26px] z-10 rounded-md opacity-30"></div>
             </div>
         </section>
-        <section class="w-screen h-[30rem] bg-image-graphic-design bg-cover bg-no-repeat bg-center">
-            <h2>Graphic Design</h2>
-            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention.</p>
+        <section class="h-[34rem] bg-image-graphic-design bg-cover bg-no-repeat bg-center flex flex-col justify-end items-center p-4">
+            <h2 class="text-Dark-desaturated-cyan font-Fraunces font-black text-3xl py-3">Graphic Design</h2>
+            <p class="text-center font-Barlow text-Dark-desaturated-cyan py-6">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention.</p>
         </section>
-        <section class="w-screen h-[30rem] bg-image-photography bg-cover bg-no-repeat bg-center">
-            <h2>Photography</h2>
-            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        <section class="h-[40rem] bg-image-photography bg-cover bg-no-repeat bg-center flex flex-col justify-end items-center">
+            <h2 class="text-Dark-blue font-Fraunces font-black text-3xl py-8">Photography</h2>
+            <p class="text-center font-Barlow text-Dark-blue pb-16">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </section>
-        <section>
-            <h2>CLIENT TESTIMONIALS</h2>
-            <img src="../images/image-emily.jpg" alt="Emily R. profile photo">
-            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-            <span>Emily R.</span>
-            <span>Marketing Director</span>
+        <section class="flex flex-col items-center px-8">
+            <h2 class="font-Fraunces tracking-widest py-16 text-Grayish-blue">CLIENT TESTIMONIALS</h2>
+            <img class="rounded-full w-16" src="../images/image-emily.jpg" alt="Emily R. profile photo">
+            <p class="text-center py-6 font-Barlow text-Very-dark-grayish-blue">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <span class="text-center text-lg font-Fraunces font-black text-Very-dark-desaturated-blue tracking-wide pb-1">Emily R.</span>
+            <span class="pb-20 font-Barlow font-semibold text-Grayish-blue">Marketing Director</span>
 
-            <img src="../images/image-thomas.jpg" alt="Emily R. profile photo">
-            <p>Sunnyside's enthusiasm couple with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
-            <span>Thomas S.</span>
-            <span>Chief Operating Officer</span>
+            <img class="rounded-full w-16" src="../images/image-thomas.jpg" alt="Emily R. profile photo">
+            <p class="text-center py-6 font-Barlow text-Very-dark-grayish-blue">Sunnyside's enthusiasm couple with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+            <span class="text-center text-lg font-Fraunces font-black text-Very-dark-desaturated-blue tracking-wide pb-1">Thomas S.</span>
+            <span class="pb-20 font-Barlow font-semibold text-Grayish-blue">Chief Operating Officer</span>
 
-            <img src="../images/image-jennie.jpg" alt="Emily R. profile photo">
-            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-            <span>Jennie F.</span>
-            <span>Business Owner</span>
+            <img class="rounded-full w-16" src="../images/image-jennie.jpg" alt="Emily R. profile photo">
+            <p class="text-center py-6 font-Barlow text-Very-dark-grayish-blue">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+            <span class="text-center text-lg font-Fraunces font-black text-Very-dark-desaturated-blue tracking-wide pb-1">Jennie F.</span>
+            <span class="pb-20 font-Barlow font-semibold text-Grayish-blue">Business Owner</span>
         </section>
-        <section class="w-screen h-[30rem] grid grid-cols-2 grid-rows-2">
+        <section class="w-screen h-[28rem] grid grid-cols-2 grid-rows-2">
             <div class="bg-image-gallery-milkbottles bg-cover bg-no-repeat bg-center"></div>
             <div class="bg-image-gallery-orange bg-cover bg-no-repeat bg-center"></div>
             <div class="bg-image-gallery-cone bg-cover bg-no-repeat bg-center"></div>
             <div class="bg-image-gallery-sugar-cubes bg-cover bg-no-repeat bg-center"></div>
         </section>
     </main>
-    <footer>
-        <h3>sunnyside</h3>
-        <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
+    <footer class="bg-footer-bg-cyan flex flex-col items-center">
+        <h3 class="text-Dark-desaturated-cyan font-Barlow font-black text-3xl pt-16 pb-8">sunnyside</h3>
+        <ul class="flex justify-evenly w-full items-center pt-2">
+            <li class="font-Barlow text-Dark-moderate-cyan text-lg">About</li>
+            <li class="font-Barlow text-Dark-moderate-cyan  text-lg">Services</li>
+            <li class="font-Barlow text-Dark-moderate-cyan text-lg">Projects</li>
         </ul>
-        <div>
-            <a href=""><img src="../images/icon-facebook.svg" alt="facebook link"></a>
-            <a href=""><img src="../images/icon-instagram.svg" alt="facebook link"></a>
-            <a href=""><img src="../images/icon-twitter.svg" alt="facebook link"></a>
-            <a href=""><img src="../images/icon-pinterest.svg" alt="facebook link"></a>
+        <div class="flex w-full justify-center py-16">
+            <a class="px-3" href=""><img src="../images/icon-facebook.svg" alt="facebook link"></a>
+            <a class="px-3" href=""><img src="../images/icon-instagram.svg" alt="facebook link"></a>
+            <a class="px-3" href=""><img src="../images/icon-twitter.svg" alt="facebook link"></a>
+            <a class="px-3" href=""><img src="../images/icon-pinterest.svg" alt="facebook link"></a>
         </div>
     </footer>
 </body>
