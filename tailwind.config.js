@@ -36,6 +36,7 @@ module.exports = {
         Fraunces: ['Fraunces', 'serif'],
       },
       backgroundImage: {
+        // M O B I L E
         'image-header': "url('../images/mobile/image-header.jpg')",
         'image-transform': "url('../images/mobile/image-transform.jpg')",
         'image-photography': "url('../images/mobile/image-photography.jpg')",
@@ -45,6 +46,17 @@ module.exports = {
         'image-gallery-orange': "url('../images/mobile/image-gallery-orange.jpg')",
         'image-gallery-sugar-cubes': "url('../images/mobile/image-gallery-sugar-cubes.jpg')",
         'image-graphic-design': "url('../images/mobile/image-graphic-design.jpg')",
+
+        // D E S K T O P
+        'image-header-desk': "url('../images/desktop/image-header.jpg')",
+        'image-transform-desk': "url('../images/desktop/image-transform.jpg')",
+        'image-photography-desk': "url('../images/desktop/image-photography.jpg')",
+        'image-stand-out-desk': "url('../images/desktop/image-stand-out.jpg')",
+        'image-gallery-cone-desk': "url('../images/desktop/image-gallery-cone.jpg')",
+        'image-gallery-milkbottles-desk': "url('../images/desktop/image-gallery-milkbottles.jpg')",
+        'image-gallery-orange-desk': "url('../images/desktop/image-gallery-orange.jpg')",
+        'image-gallery-sugar-cubes-desk': "url('../images/desktop/image-gallery-sugarcubes.jpg')",
+        'image-graphic-design-desk': "url('../images/desktop/image-graphic-design.jpg')",
       }
     },
   },

@@ -12,17 +12,25 @@
     <title>Fruits</title>
 </head>
 <body>
-    <header class="flex flex-col w-screen h-[38rem] bg-image-header bg-cover bg-no-repeat bg-center relative">
-        <div class="flex justify-between px-5 py-5 items-center">
-            <span class="text-white font-Barlow font-black text-2xl">sunnyside</span>
-            <img class="w-[24px] h-[18px]" src="../images/icon-hamburger.svg" alt="Menu despegable">
+    <header class="flex flex-col w-screen h-[38rem] xl:h-[48rem] bg-image-header xl:bg-image-header-desk bg-cover bg-no-repeat bg-center relative">
+        <div class="flex justify-between px-5 xl:px-10 py-5 xl:py-10 items-center">
+            <span class="text-white font-Barlow font-black text-2xl xl:text-4xl">sunnyside</span>
+            <nav class="flex items-center invisible xl:visible absolute xl:relative">
+                <a class="text-white px-4 text-lg" href="">About</a>
+                <a class="text-white px-4 text-lg" href="">Services</a>
+                <a class="text-white pl-4 pr-[3rem] text-lg" href="">Projects</a>
+                <div class="w-36 h-16 bg-white rounded-[2rem] grid">
+                    <a class="text-black text-lg font-Fraunces text-center justify-self-center self-center" href="">CONTACT</a>
+                </div>
+            </nav>
+            <img class="w-[24px] h-[18px] visible xl:invisible xl:absolute" src="../images/icon-hamburger.svg" alt="Menu despegable">
         </div>
-        <h1 class="m-auto text-white font-Fraunces text-5xl text-center tracking-widest pb-60">WE ARE CREATIVES</h1>
+        <h1 class="m-auto text-white font-Fraunces text-5xl text-center tracking-widest pb-60 xl:pb-[28rem]">WE ARE CREATIVES</h1>
         <img class="w-[36px] h-[114px] absolute left-0 right-0 top-80 m-auto" src="../images/icon-arrow-down.svg" alt="">
     </header>
-    <main>
-        <section class="h-[18rem] bg-image-transform bg-cover bg-no-repeat bg-center"></section>
-        <section>
+    <main class="xl:grid xl:grid-cols-4 xl:grid-rows-[600px_600px_600px_600px_600px]">
+        <section class="h-[18rem] xl:h-full bg-image-transform xl:bg-image-transform-desk bg-cover bg-no-repeat bg-center xl:col-start-3 xl:col-span-2"></section>
+        <section class="xl:row-start-1 xl:row-span-1 xl:col-start-1 xl:col-span-2">
             <h2 class="text-center font-Fraunces font-black text-3xl px-8 py-8 text-Very-dark-desaturated-blue">Transform your brand</h2>
             <p class="px-8 text-center font-Barlow text-Dark-grayish-blue">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
             <div class="relative py-2">
@@ -32,8 +40,8 @@
                 <div class="w-[130px] m-auto h-2 bg-Yellow absolute left-0 right-0 m-auto bottom-[26px] z-10 rounded-md opacity-30"></div>
             </div>
         </section>
-        <section class="h-[24rem] bg-image-stand-out bg-cover bg-no-repeat bg-center"></section>
-        <section>
+        <section class="h-[24rem] xl:h-full bg-image-stand-out xl:bg-image-stand-out-desk bg-cover bg-no-repeat bg-center xl:row-start-2 xl:row-span-1 xl:col-start-1 xl:col-span-2"></section>
+        <section class="xl:row-start-2 xl:row-span-1 xl:col-start-3 xl:col-span-2">
             <h2 class="text-center font-Fraunces font-black text-3xl px-8 py-8 text-Very-dark-desaturated-blue">Stand out to the right audience</h2>
             <p class="px-8 text-center font-Barlow text-Dark-grayish-blue">Using a collaborative formula of designers, researches, photographers, videographers, and copywriters, we'll build and extend yout brand in digital places.</p>
             <div class="relative py-2">
@@ -43,15 +51,15 @@
                 <div class="w-[130px] m-auto h-2 bg-Soft-red absolute left-0 right-0 m-auto bottom-[26px] z-10 rounded-md opacity-30"></div>
             </div>
         </section>
-        <section class="h-[34rem] bg-image-graphic-design bg-cover bg-no-repeat bg-center flex flex-col justify-end items-center p-4">
+        <section class="h-[34rem] xl:h-full bg-image-graphic-design xl:bg-image-graphic-design-desk bg-cover bg-no-repeat bg-center flex flex-col justify-end items-center p-4 xl:row-start-3 xl:row-span-1 xl:col-start-1 xl:col-span-2">
             <h2 class="text-Dark-desaturated-cyan font-Fraunces font-black text-3xl py-3">Graphic Design</h2>
             <p class="text-center font-Barlow text-Dark-desaturated-cyan py-6">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention.</p>
         </section>
-        <section class="h-[40rem] bg-image-photography bg-cover bg-no-repeat bg-center flex flex-col justify-end items-center">
+        <section class="h-[40rem] xl:h-full bg-image-photography bg-cover xl:bg-image-photography-desk bg-no-repeat bg-center flex flex-col justify-end items-center xl:row-start-3 xl:row-span-1 xl:col-start-3 xl:col-span-2">
             <h2 class="text-Dark-blue font-Fraunces font-black text-3xl py-8">Photography</h2>
             <p class="text-center font-Barlow text-Dark-blue pb-16">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </section>
-        <section class="flex flex-col items-center px-8">
+        <section class="flex flex-col items-center px-8 xl:row-start-4 xl:row-span-1 xl:col-start-1 xl:col-span-4">
             <h2 class="font-Fraunces tracking-widest py-16 text-Grayish-blue">CLIENT TESTIMONIALS</h2>
             <img class="rounded-full w-16" src="../images/image-emily.jpg" alt="Emily R. profile photo">
             <p class="text-center py-6 font-Barlow text-Very-dark-grayish-blue">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
@@ -68,7 +76,7 @@
             <span class="text-center text-lg font-Fraunces font-black text-Very-dark-desaturated-blue tracking-wide pb-1">Jennie F.</span>
             <span class="pb-20 font-Barlow font-semibold text-Grayish-blue">Business Owner</span>
         </section>
-        <section class="w-screen h-[28rem] grid grid-cols-2 grid-rows-2">
+        <section class="w-screen h-[28rem] grid grid-cols-2 grid-rows-2 xl:row-start-5 xl:row-span-1 xl:col-start-1 xl:col-span-4">
             <div class="bg-image-gallery-milkbottles bg-cover bg-no-repeat bg-center"></div>
             <div class="bg-image-gallery-orange bg-cover bg-no-repeat bg-center"></div>
             <div class="bg-image-gallery-cone bg-cover bg-no-repeat bg-center"></div>
