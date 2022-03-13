@@ -508,8 +508,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .m-auto {
   margin: auto;
+}
+
+.my-\[2rem\] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -590,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grow {
   flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .grid-cols-2 {
@@ -811,6 +828,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-Barlow {
   font-family: Barlow, sans-serif;
 }
@@ -904,6 +925,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0.3;
 }
 
+.hover\:bg-opacity-10:hover {
+  --tw-bg-opacity: 0.1;
+}
+
+.hover\:bg-opacity-20:hover {
+  --tw-bg-opacity: 0.2;
+}
+
+.hover\:bg-opacity-30:hover {
+  --tw-bg-opacity: 0.3;
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-red-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.hover\:text-opacity-95:hover {
+  --tw-text-opacity: 0.95;
+}
+
+.hover\:opacity-95:hover {
+  opacity: 0.95;
+}
+
+.hover\:opacity-30:hover {
+  opacity: 0.3;
+}
+
+.hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+.hover\:opacity-5:hover {
+  opacity: 0.05;
+}
+
+.hover\:opacity-10:hover {
+  opacity: 0.1;
+}
+
 @media (min-width: 1440px) {
   .xl\:visible {
     visibility: visible;
@@ -974,10 +1049,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1.5rem;
   }
 
-  .xl\:flex {
-    display: flex;
-  }
-
   .xl\:grid {
     display: grid;
   }
@@ -994,16 +1065,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .xl\:grid-rows-\[600px_600px_600px_600px_600px\] {
-    grid-template-rows: 600px 600px 600px 600px 600px;
+  .xl\:grid-rows-\[600px_600px_600px_600px_448px\] {
+    grid-template-rows: 600px 600px 600px 600px 448px;
   }
 
   .xl\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
-  }
-
-  .xl\:grid-rows-\[600px_600px_600px_600px_448px\] {
-    grid-template-rows: 600px 600px 600px 600px 448px;
   }
 
   .xl\:flex-row {
@@ -1068,16 +1135,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 15rem;
   }
 
-  .xl\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .xl\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -1103,11 +1160,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .xl\:text-xl {
-    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
