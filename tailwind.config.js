@@ -24,6 +24,9 @@ module.exports = {
         'Dark-grayish-blue': '#808397',
         'Grayish-blue': '#A7AAAE',
         'White': '#FFFFFF',
+
+        'bg-menu-responsive': '#fefbf9',
+        'bg-contact-responsive': '#fad700',
       },
       // fontFamily: {
       //   sans: [
