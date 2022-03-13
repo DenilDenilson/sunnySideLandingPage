@@ -14,9 +14,9 @@ This is a solution to the Sunnyside landing page challenge on Frontend Mentor.
 
 # Overview
 ### Mobile
-![](https://github.com/DenilDenilson/nftCard/blob/main/images/Overview_mobile.png?raw=true)
+![](https://i.imgur.com/wKPgO4b.jpeg)
 ### Desktop
-![](https://github.com/DenilDenilson/nftCard/blob/main/images/Overview_desktop.png?raw=true)
+![](https://i.imgur.com/CBFydvJ.jpeg)
 ### Links
 - Solution URL: [https://github.com/DenilDenilson/sunnySideLandingPage](https://github.com/DenilDenilson/sunnySideLandingPage "Repositorio")
 - Live site URL: [https://denildenilson.github.io/sunnySideLandingPage/public/index.html](https://denildenilson.github.io/sunnySideLandingPage/public/index.html "Live site URL")
